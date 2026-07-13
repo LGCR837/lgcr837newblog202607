@@ -386,7 +386,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -1005,14 +1005,14 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "An elegant theme for Hexo"
-  # 更多图标可从 https://fluid.ist/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
-  # More icons can be found from https://fluid.ist/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
+  name: "LGCR837"
+  intro: "一个初中生喵~"
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/LGCR837", tip: "GitHub" }
+    - { class: "iconfont icon-gitee-fill", link: "https://gitee.com/lgcr837", tip: "Gitee" }
+    - { class: "iconfont icon-codepen-fill", link: "https://codeberg.org/lgcr837", tip: "CodeBerg" }
+    - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/3493271839967884", tip: "Bilibili" }
+    - { class: "iconfont icon-telegram-fill", link: "https://t.me/lgcr837", tip: "Telegram" }
 
 
 #---------------------------
@@ -1034,9 +1034,9 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /image/2.jpg
+  banner_img: /image/9.png
   banner_img_height: 85
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0
   # 重定向到首页的延迟(毫秒)
   # Delay in redirecting to home page (milliseconds)
   redirect_delay: 5000
@@ -1048,31 +1048,45 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /image/2.jpg
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_img: /image/10.png
+  banner_img_height: 90
+  banner_mask_alpha: 0
   # 友链的成员项
   # Member item of page
   items:
+  
     - {
-      title: "Fluid Blog",
-      intro: "主题博客",
-      link: "https://fluid.ist/",
-      avatar: "/img/favicon.png"
+      title: "LGCR837 の Archive",
+      intro: "与你的日常，便是奇迹",
+      link: "https://crweb.ccwu.cc/",
+      avatar: "/image/7.jpg"
     }
     - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://fluid.ist/docs/",
-      avatar: "/img/favicon.png"
+      title: "MLBlog",
+      intro: "李大爷的博客",
+      link: "https://mcldy.github.io/",
+      avatar: "/image/4.jpg"
     }
     - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
+      title: "Blue Archive Blog",
+      intro: "キヴォトスの日常記録",
+      link: "https://120211.xyz/",
+      avatar: "/image/5.jpg"
     }
-
+    - {
+      title: "Revolution 官方网站",
+      intro: "为用户提供稳定可靠的应用",
+      link: "http://teaf.cc/",
+      avatar: "/image/6.png"
+    }
+    - {
+      title: "瑞格米·Ragemi",
+      intro: "打造小而美的数字体验",
+      link: "https://ragemi.com/",
+      avatar: "/image/8.jpg"
+    }
+    
+    
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
   onerror_avatar: /img/avatar.png
@@ -1080,8 +1094,8 @@ links:
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
   custom:
-    enable: false
-    content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://fluid.ist</li><li>图片：https://fluid.ist/img/favicon.png</li></ul>'
+    enable: true
+    content: '<hr><p>我实行单向友联机制，你无需在你的网站添加我的友联即可添加，请联系 gengcr666@outlook.com</p>'
 
   # 评论插件
   # Comment plugin
